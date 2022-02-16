@@ -5351,7 +5351,8 @@ a.thumbnail:hover {
 .media,
 .media-body {
  overflow:hidden;
- zoom:1
+ ransform:scale(1);
+ transform-origin: 0 0;
 }
 .media-body {
  width:10000px
